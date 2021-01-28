@@ -1,0 +1,62 @@
+{
+  "_from": "wstock",
+  "_id": "wstock@0.0.15",
+  "_inBundle": false,
+  "_integrity": "sha1-DE8YxoiY4TBZ80CyvEZrvRHVLMA=",
+  "_location": "/wstock",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "wstock",
+    "name": "wstock",
+    "escapedName": "wstock",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/wstock/download/wstock-0.0.15.tgz",
+  "_shasum": "0c4f18c68898e13059f340b2bc466bbd11d52cc0",
+  "_spec": "wstock",
+  "_where": "/Users/PandaLZMing",
+  "author": {
+    "name": "qinjia",
+    "email": "qinjia@outlook.com"
+  },
+  "bin": {
+    "wstock": "bin/wstock.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hellopao/wstock/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "request": "^2.67.0"
+  },
+  "deprecated": false,
+  "description": "a cmd tool for watching stock info",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://github.com/hellopao/wstock",
+  "keywords": [
+    "stock",
+    "cmd tool"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "wstock",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellopao/wstock.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.15"
+}
