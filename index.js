@@ -245,8 +245,17 @@ exports.queryStockListStatus = () => {
 					stockData.forEach(singleData => {
 						singleData.items.forEach(stock => {
 							const { code } = stock;
-							const stockData = data[code.toUpperCase()]
+							const stockData = data[code.toUpperCase()];
+							const { marketCapital: m } = stockData;
 							stockData.raise = ' / ';
+
+							let marketCapital = new Number(m)	// 原始数据市值
+							marketCapital = round((marketCapital / 100000000), 0);
+							stockData.marketCapital = marketCapital.toString() + '亿';
+
+							if (stockData.pe_ttm === '') {
+								stockData.pe_ttm = '亏损';
+							} 
 							stock.stockData = stockData;
 						});
 					});

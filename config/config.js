@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-07-02 10:25:24
- * @LastEditTime: 2021-01-28 11:43:34
+ * @LastEditTime: 2021-01-29 11:23:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /wstock/config/config.js
@@ -24,13 +24,24 @@ exports.stockTermMap = {
     "name": "股票名称",
     "code": "股票代码",
     "open": "今日开盘",
-    "last_close": "昨日收盘",
     "current": "当前价格",
     "high": "今日最高",
     "low": "今日最低",
+    "marketCapital": "当前市值",
+    "pe_ttm": "市盈率",
     "raise": "年初至今",
     "percentage": "今日涨幅",
 };
+
+// exports.stockTermMap = {
+//     "name": "股票名称",
+//     "code": "股票代码",
+//     "open": "今日开盘",
+//     "current": "当前价格",
+//     "marketCapital": "当前市值",
+//     "raise": "年初至今",
+//     "percentage": "今日涨幅",
+// };
 
 exports.stockShortMap = {
     "name": "NAME",
